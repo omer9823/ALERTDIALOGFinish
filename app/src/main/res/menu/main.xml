@@ -3,8 +3,9 @@
 
 
     <item
-        android:id="@+id/NextAtivity"
-        android:title="Next Activity"/>
+        android:id="@+id/nextAtivity"
+        android:title="Next Activity"
+        android:orderInCategory="100"/>
 
 
 </menu>

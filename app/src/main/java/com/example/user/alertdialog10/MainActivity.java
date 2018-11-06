@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
 
         int nextActivity = item.getItemId();
-        if (nextActivity == R.id.NextActivity) {
+        if (nextActivity == R.id.nextAtivity) {
             Intent go = new Intent(this, Main2Activity.class);
             startActivity(go);
         }
@@ -162,4 +162,3 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
-
